@@ -9,7 +9,6 @@ import { firestoreConnect } from 'react-redux-firebase';
 class Dashboard extends Component {
     render (){
         const {projects} = this.props;
-        console.log(projects);
         return (
             <div className="dashboard container">
                 <div className="row">
